@@ -23,7 +23,7 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Refresh README contribution list
+      - name: Refresh contribution wall
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: yaobii-lab
@@ -31,12 +31,12 @@ jobs:
 
       - name: Commit changes
         run: |
-          if git diff --quiet -- README.md; then
+          if git diff --quiet -- README.md assets/open-source-contributions.svg; then
             echo "No contribution changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md assets/open-source-contributions.svg
           git commit -m "chore: refresh open-source contributions"
           git push
