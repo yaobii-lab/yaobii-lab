@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 576" role="img" aria-labelledby="title desc">
+<title id="title">Recent open-source contributions</title>
+<desc id="desc">Six recent upstream pull requests by yaobii-lab, shown as a two-column card wall.</desc>
+<style>
+  .card{fill:#ffffff;stroke:#d0d7de;stroke-width:1}
+  .repo{fill:#57606a;font:600 14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+  .meta,.date{fill:#6e7781;font:500 13px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+  .title{fill:#24292f;font:600 18px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+  .pill{stroke-width:1}
+  .pill-text{font:700 11px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:.4px}
+  .merged-pill{fill:#fbefff;stroke:#d8b9ff}.merged-text{fill:#8250df}
+  .open-pill{fill:#dafbe1;stroke:#aceebb}.open-text{fill:#1a7f37}
+  @media (prefers-color-scheme: dark){
+    .card{fill:#0d1117;stroke:#30363d}
+    .repo,.meta,.date{fill:#8b949e}
+    .title{fill:#f0f6fc}
+    .merged-pill{fill:#2f153f;stroke:#6e40c9}.merged-text{fill:#d2a8ff}
+    .open-pill{fill:#0f2d1c;stroke:#238636}.open-text{fill:#7ee787}
+  }
+</style>
+<g class="card-wrap">
+  <rect class="card" x="12" y="12" width="570" height="172" rx="18"/>
+  <text class="repo" x="36" y="46">tisfeng/Easydict</text>
+  <rect class="pill merged-pill" x="470" y="30" width="88" height="26" rx="13"/>
+  <text class="pill-text merged-text" x="514" y="48" text-anchor="middle">MERGED</text>
+  <text class="meta" x="36" y="76">PR #1277</text>
+  <text class="title" x="36" y="106">feat(ocr): restore QR code payload</text>
+  <text class="title" x="36" y="130">recognition</text>
+  <text class="date" x="36" y="160">Updated Sep 22, 2026</text>
+</g>
+<g class="card-wrap">
+  <rect class="card" x="618" y="12" width="570" height="172" rx="18"/>
+  <text class="repo" x="642" y="46">erichll/go-fast-note-sync</text>
+  <rect class="pill merged-pill" x="1076" y="30" width="88" height="26" rx="13"/>
+  <text class="pill-text merged-text" x="1120" y="48" text-anchor="middle">MERGED</text>
+  <text class="meta" x="642" y="76">PR #10</text>
+  <text class="title" x="642" y="106">fix(sync): bound data-frame writes with</text>
+  <text class="title" x="642" y="130">writeWait</text>
+  <text class="date" x="642" y="160">Updated Sep 20, 2026</text>
+</g>
+<g class="card-wrap">
+  <rect class="card" x="12" y="196" width="570" height="172" rx="18"/>
+  <text class="repo" x="36" y="230">jlcodes99/cockpit-tools</text>
+  <rect class="pill open-pill" x="470" y="214" width="88" height="26" rx="13"/>
+  <text class="pill-text open-text" x="514" y="232" text-anchor="middle">OPEN</text>
+  <text class="meta" x="36" y="260">PR #2335</text>
+  <text class="title" x="36" y="290">feat(antigravity): add Antigravity CLI</text>
+  <text class="title" x="36" y="314">account switching and switch-and-run support</text>
+  <text class="date" x="36" y="344">Updated Sep 8, 2026</text>
+</g>
+<g class="card-wrap">
+  <rect class="card" x="618" y="196" width="570" height="172" rx="18"/>
+  <text class="repo" x="642" y="230">tisfeng/Easydict</text>
+  <rect class="pill merged-pill" x="1076" y="214" width="88" height="26" rx="13"/>
+  <text class="pill-text merged-text" x="1120" y="232" text-anchor="middle">MERGED</text>
+  <text class="meta" x="642" y="260">PR #1276</text>
+  <text class="title" x="642" y="290">feat(query): reverse translate from</text>
+  <text class="title" x="642" y="314">completed result</text>
+  <text class="date" x="642" y="344">Updated Sep 5, 2026</text>
+</g>
+<g class="card-wrap">
+  <rect class="card" x="12" y="380" width="570" height="172" rx="18"/>
+  <text class="repo" x="36" y="414">tisfeng/Easydict</text>
+  <rect class="pill open-pill" x="470" y="398" width="88" height="26" rx="13"/>
+  <text class="pill-text open-text" x="514" y="416" text-anchor="middle">OPEN</text>
+  <text class="meta" x="36" y="444">PR #1278</text>
+  <text class="title" x="36" y="474">feat(settings): support multiple auto query</text>
+  <text class="title" x="36" y="498">language exclusions</text>
+  <text class="date" x="36" y="528">Updated Aug 21, 2026</text>
+</g>
+<g class="card-wrap">
+  <rect class="card" x="618" y="380" width="570" height="172" rx="18"/>
+  <text class="repo" x="642" y="414">jlcodes99/cockpit-tools</text>
+  <rect class="pill merged-pill" x="1076" y="398" width="88" height="26" rx="13"/>
+  <text class="pill-text merged-text" x="1120" y="416" text-anchor="middle">MERGED</text>
+  <text class="meta" x="642" y="444">PR #1867</text>
+  <text class="title" x="642" y="474">fix(codex): preserve HTTP-only Responses</text>
+  <text class="title" x="642" y="498">relay transport</text>
+  <text class="date" x="642" y="528">Updated Aug 12, 2026</text>
+</g>
+</svg>
