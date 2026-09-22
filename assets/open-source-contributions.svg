@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 576" role="img" aria-labelledby="title desc">
 <title id="title">Recent open-source contributions</title>
-<desc id="desc">Six recent upstream pull requests by yaobii-lab, shown as a two-column card wall.</desc>
+<desc id="desc">Recent upstream pull requests by yaobii-lab, shown as a two-column card wall.</desc>
 <style>
   .card{fill:#ffffff;stroke:#d0d7de;stroke-width:1}
   .repo{fill:#57606a;font:600 14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
