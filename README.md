@@ -1,4 +1,4 @@
-# Yibo Yan · yaobii
+# Yaobii
 
 > I build strange, useful things with AI.
 
