@@ -15,6 +15,9 @@ README = Path(__file__).resolve().parents[1] / "README.md"
 START = "<!-- AUTO:CONTRIBUTIONS:START -->"
 END = "<!-- AUTO:CONTRIBUTIONS:END -->"
 LIMIT = int(os.environ.get("CONTRIBUTIONS_LIMIT", "6"))
+EXCLUDED_REPOS = {
+    "moonlin1213/cove-sensory-mcp",
+}
 
 
 def github_json(url: str) -> dict:
@@ -42,7 +45,11 @@ def search(status: str) -> list[dict]:
     items = []
     for item in data.get("items", []):
         repo = item.get("repository_url", "").rstrip("/").split("/repos/")[-1]
-        if not repo or repo.split("/", 1)[0].lower() == USERNAME.lower():
+        if not repo:
+            continue
+        if repo.split("/", 1)[0].lower() == USERNAME.lower():
+            continue
+        if repo.lower() in {name.lower() for name in EXCLUDED_REPOS}:
             continue
         items.append(
             {
