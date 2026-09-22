@@ -23,9 +23,9 @@ Work contributed upstream lives here, separate from my own projects.
 - **tisfeng/Easydict** · [#1277 feat(ocr): restore QR code payload recognition](https://github.com/tisfeng/Easydict/pull/1277) · `merged`
 - **erichll/go-fast-note-sync** · [#10 fix(sync): bound data-frame writes with writeWait](https://github.com/erichll/go-fast-note-sync/pull/10) · `merged`
 - **jlcodes99/cockpit-tools** · [#2335 feat(antigravity): add Antigravity CLI account switching and switch-and-run support](https://github.com/jlcodes99/cockpit-tools/pull/2335) · `open`
-- **moonlin1213/cove-sensory-mcp** · [#1 feat: support Linux source installs](https://github.com/moonlin1213/cove-sensory-mcp/pull/1) · `open`
 - **tisfeng/Easydict** · [#1276 feat(query): reverse translate from completed result](https://github.com/tisfeng/Easydict/pull/1276) · `merged`
 - **tisfeng/Easydict** · [#1278 feat(settings): support multiple auto query language exclusions](https://github.com/tisfeng/Easydict/pull/1278) · `open`
+- **jlcodes99/cockpit-tools** · [#1867 fix(codex): preserve HTTP-only Responses relay transport](https://github.com/jlcodes99/cockpit-tools/pull/1867) · `merged`
 <!-- AUTO:CONTRIBUTIONS:END -->
 
 ## Currently exploring
